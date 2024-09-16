@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7CBFB9"
+    android:padding="16dp">
+
+
+
+    <ImageView
+        android:id="@+id/img_student"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:scaleType="centerCrop" />
+    <Button
+        android:id="@+id/btn_upload_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Upload/Take Image" />
+    <!-- EditText for Name -->
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <!-- EditText for Class -->
+    <EditText
+        android:id="@+id/et_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Class"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <!-- EditText for Father's Name -->
+    <EditText
+        android:id="@+id/et_father_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Father's Name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="8dp" />
+
+    <!-- EditText for Mother's Name -->
+    <EditText
+        android:id="@+id/et_mother_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Mother's Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <!-- EditText for Mobile Number -->
+    <EditText
+        android:id="@+id/et_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <!-- EditText for Address -->
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/create"
+        android:id="@+id/create"></Button>
+
+</LinearLayout>
