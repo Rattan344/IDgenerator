@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#f3f3f3">
+
+    <!-- Student Photo (Optional if available) -->
+    <ImageView
+        android:id="@+id/image_student_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/i"
+        android:contentDescription="Student Photo" />
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <!-- Class -->
+    <TextView
+        android:id="@+id/tv_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class: "
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <!-- Father's Name -->
+    <TextView
+        android:id="@+id/tv_father_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Father's Name: "
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <!-- Mother's Name -->
+    <TextView
+        android:id="@+id/tv_mother_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mother's Name: "
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <!-- Mobile -->
+    <TextView
+        android:id="@+id/tv_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile: "
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <!-- Address -->
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+</LinearLayout>

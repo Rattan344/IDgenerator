@@ -7,6 +7,12 @@
     android:background="#7CBFB9"
     android:padding="16dp">
 
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:background="?attr/colorPrimary"-->
+<!--       />-->
 
 
     <ImageView

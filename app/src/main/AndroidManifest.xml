@@ -13,6 +13,9 @@
         android:theme="@style/Theme.GenID"
         tools:targetApi="31">
         <activity
+            android:name=".finalviewcard"
+            android:exported="false" />
+        <activity
             android:name=".idlayouts"
             android:exported="false" />
         <activity
@@ -26,7 +29,7 @@
         </activity> <!-- Main Activity, which will launch after the splash screen -->
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
